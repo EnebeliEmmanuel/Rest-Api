@@ -195,7 +195,7 @@ No errors or warnings were found when passing through the official [JSHint](http
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://EnebeliEmmanuel.github.io/Rest-Api/)
+The live link can be found [here](https://rest-api-r88spnykl-iemmaenebeli-gmailcom.vercel.app/)
 
 ---
 
