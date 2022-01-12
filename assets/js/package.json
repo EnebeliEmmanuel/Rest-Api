@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "responsive-rest-api",
   "scripts": {
-    "js": "vanilla-js -w css/ -o assets/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
