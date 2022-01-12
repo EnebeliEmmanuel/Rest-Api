@@ -1,8 +1,8 @@
-# Frontend Mentor - Time tracking dashboard
+# Frontend Mentor - rest-countries-api-with-color-theme-switcher
 
 The project was based on the challenge provided by [Frontend Mentor](https://www.frontendmentor.io).
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
+This is a solution to the [rest-countries-api-with-color-theme-switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
 ## The design provided
 
