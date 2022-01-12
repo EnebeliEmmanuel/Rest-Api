@@ -1,0 +1,7 @@
+{
+  "homepage": "https://EnebeliEmmanuel.github.io/Rest-Api",
+  "deploy": "gh-pages -d assets",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
