@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="the solution to rest countries api from frontend mentor" />
+  <meta name="keywords" content="rest countries api, frontend mentor, challenge, flexbox, grid, jest, api" />
+  <meta name="author" content="Frontend Mentor, Iuliia Konovalova" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title>frontendmentor|koko codes</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="navbar__title">Where in the world?</h1>
+      <div class="mode__control" id="mode-control">
+        <i class="far fa-moon"></i>
+        <i class="fas fa-moon"></i>
+        <div class="mode__title">Dark Mode</div>
+      </div>
+    </nav>
+
+
+
+
+  </header>
+
+  <main class="main">
+    <div class="subnav">
+      <div class="search__container">
+        <i class="fas fa-search search__icon"></i>
+        <input type="text" name="search" id="search" placeholder="Search for a country..." tabindex="0" />
+      </div>
+
+      <div class="dropdown" id="dropdown">
+        Filter by Region
+        <i class="fas fa-chevron-down"></i>
+        <ul>
+          <li>All</li>
+          <li>Africa</li>
+          <li>Americas</li>
+          <li>Asia</li>
+          <li>Europe</li>
+          <li>Oceania</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main__container" id="countries"></div>
+  </main>
+
+  <aside class="modal__container" id="modal">
+    <div class="modal__data">
+      <div class="btn_back__container">
+        <button class="btn btn__back" id="close__modal">
+          <i class="fas fa-arrow-left btn__icon"></i>Back
+        </button>
+      </div>
+      <div id="modal__flag" class="modal__flag">
+      </div>
+      <div class="modal__content"></div>
+    </div>
+  </aside>
+
+  <!--Credit section-->
+  <footer class="attribution">
+    <div class="credits_frontend-mentor">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noopener" target="_blank">Frontend
+        Mentor</a>.
+    </div>
+    <div class="credits_myself">
+      Coded by <a href="https://github.com/EnebeliEmmanuel" rel="noopener" target="_blank">Enebeli Emmanuel</a>.
+    </div>
+    <div class="credits_flagpedia">
+      Flags provided by <a href="https://flagpedia.net/" rel="noopener" target="_blank">Flagpedia</a>.
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
