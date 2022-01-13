@@ -22,7 +22,7 @@
       <div class="mode__control" id="mode-control">
         <i class="far fa-moon"></i>
         <i class="fas fa-moon"></i>
-        <div class="mode__title">Dark Mode</div>
+        <button aria-pressed="true"   class="mode__title">Dark Mode</button>
       </div>
     </nav>
 
@@ -35,20 +35,28 @@
     <div class="subnav">
       <div class="search__container">
         <i class="fas fa-search search__icon"></i>
-        <input type="text" name="search" id="search" placeholder="Search for a country..." tabindex="0" />
+     
+        <input class="focus-visible" type="text" name="search" id="search" placeholder="Search for a country..." tabindex="0"  />
+      
       </div>
 
-      <div class="dropdown" id="dropdown">
-        Filter by Region
+      <div class="dropdown" id="dropdown"><button class="focus-visible" placeholder="Filter by Region">
+        
+         Filter by Region
+        
         <i class="fas fa-chevron-down"></i>
+        
         <ul>
-          <li>All</li>
-          <li>Africa</li>
-          <li>Americas</li>
-          <li>Asia</li>
-          <li>Europe</li>
-          <li>Oceania</li>
+          
+          <li style="color: white;">All</li>
+          <li style="color: white;">Africa</li>
+          <li style="color: white;">Americas</li>
+          <li style="color: white;">Asia</li>
+          <li style="color: white;">Europe</li>
+          <li style="color: white;">Oceania</li>
+          
         </ul>
+        </button>
       </div>
     </div>
     <div class="main__container" id="countries"></div>

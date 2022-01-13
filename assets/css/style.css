@@ -52,9 +52,9 @@ body.light {
   justify-content: space-between;
   align-items: center;
   background-color: var(--clr-primary--300);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
   position: fixed;
   top: 0;
   left: 0;
@@ -106,16 +106,16 @@ body.light .mode__control .far {
   left: 2.5rem; }
 
 input {
-  font-size: 0.95rem;
+ font-size: 0.95rem;
   padding: 2em 6.2em;
-  width: 100%;
+  width:  100%;
   border-radius: var(--br);
   text-align: left;
   border: none;
   background: var(--clr-primary--300);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36); }
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36); }
 
 body.light input {
   background: var(--clr-neutral--300); }
@@ -137,16 +137,20 @@ input:not(:placeholder-shown) {
 body.light input:not(:placeholder-shown) {
   color: black; }
 
-input:focus {
-  outline: none; }
+
 
 /* Dropdown */
+
+button:focus-visible {
+  outline: 3px dashed#111517;
+  background: #111517;
+}
 .dropdown {
   border-radius: var(--br);
   background-color: var(--clr-primary--300);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
   cursor: pointer;
   font-size: 0.95rem;
   padding: 2em 2.3em;
@@ -169,7 +173,7 @@ body.light .dropdown {
   z-index: 99;
   border-radius: var(--br);
   background-color: var(--clr-primary--300);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
   display: none; }
 
 body.light .dropdown ul {
@@ -193,9 +197,9 @@ body.light .dropdown ul {
   justify-self: center;
   background-color: var(--clr-primary--300);
   border-radius: var(--br);
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
   cursor: pointer;
   display: grid;
   /* in order to preserve the real size of the countries flag: max-width: 23rem; */
@@ -230,6 +234,11 @@ body.light .data__card {
   line-height: 1.5; }
 
 /* Modal */
+input:focus-visible {
+  outline: 3px dashed#111517;
+  background: transparent;
+}
+
 .modal__container {
   background-color: var(--clr-primary--500);
   display: none;
@@ -266,9 +275,9 @@ body.light .modal__container {
   color: var(--clr-neutral--100);
   outline: none;
   border: 1px solid var(--clr-primary--700);
-  box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36); }
+  box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.36); }
 
 body.light .btn {
   background-color: var(--clr-neutral--300);
@@ -297,9 +306,9 @@ body.light .btn {
   display: block;
   object-fit: contain;
   border-radius: var(--br);
-  box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36);
-  -webkit-box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.36); }
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.36); }
 
 .modal__content {
   grid-row: 2/3;
@@ -336,7 +345,7 @@ body.light .btn {
 
 .attribution > div a {
   color: #6882e8;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+ }
 
 @media screen and (max-width: 125em) {
   .modal__content {
